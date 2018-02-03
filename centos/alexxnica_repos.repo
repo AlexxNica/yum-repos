@@ -1,0 +1,127 @@
+# Foreman
+[foreman-latest]
+name=Foreman - Latest
+baseurl=https://yum.theforeman.org/latest/el$releasever/$basearch/
+enabled=1
+gpgcheck=0
+
+[foreman-plugins-latest]
+name=Foreman Plugins - Latest
+baseurl=https://yum.theforeman.org/plugins/latest/el$releasever/$basearch/
+enabled=1
+gpgcheck=0
+
+# Foreman Nightly
+[foreman-nightly]
+name=Foreman - Nightly
+baseurl=https://yum.theforeman.org/nightly/el$releasever/$basearch/
+enabled=1
+gpgcheck=0
+
+[foreman-nightly-koji]
+name=Foreman - Nightly (Koji)
+baseurl=http://koji.katello.org/releases/yum/foreman-nightly/RHEL/$releasever/$basearch/
+enabled=1
+gpgcheck=0
+
+[foreman-plugins-nightly-koji]
+name=Foreman Plugins - Nightly (Koji)
+baseurl=http://koji.katello.org/releases/yum/foreman-plugins-nightly/RHEL/$releasever/$basearch/
+enabled=1
+gpgcheck=0
+
+# Katello
+[katello-latest]
+name=Katello - Latest
+baseurl=https://fedorapeople.org/groups/katello/releases/yum/latest/katello/el$releasever/$basearch/
+enabled=1
+gpgcheck=0
+
+[katello-client-latest]
+name=Katello Client - Latest
+baseurl=https://fedorapeople.org/groups/katello/releases/yum/latest/client/el$releasever/$basearch/
+enabled=1
+gpgcheck=0
+
+[katello-candlepin-latest]
+name=Katello Candlepin - Latest
+baseurl=https://fedorapeople.org/groups/katello/releases/yum/latest/candlepin/el$releasever/$basearch/
+enabled=1
+gpgcheck=0
+
+[katello-pulp-latest]
+name=Katello Pulp - Latest
+baseurl=https://fedorapeople.org/groups/katello/releases/yum/latest/pulp/el$releasever/$basearch/
+enabled=1
+gpgcheck=0
+
+# Katello Nightly
+[katello-nightly-koji]
+name=Katello - Nightly (Koji)
+baseurl=http://koji.katello.org/releases/yum/katello-nightly/katello/el$releasever/$basearch/
+enabled=1
+gpgcheck=0
+
+[katello-client-nightly-koji]
+name=Katello Client - Nightly (Koji)
+baseurl=http://koji.katello.org/releases/yum/katello-nightly/client/el$releasever/$basearch/
+enabled=1
+gpgcheck=0
+
+[katello-candlepin-nightly-koji]
+name=Katello Candlepin - Nightly (Koji)
+baseurl=http://koji.katello.org/releases/yum/katello-nightly/candlepin/el$releasever/$basearch/
+enabled=1
+gpgcheck=0
+
+[katello-pulp-nightly-koji]
+name=Katello Pulp - Nightly (Koji)
+baseurl=http://koji.katello.org/releases/yum/katello-nightly/pulp/el$releasever/$basearch/
+enabled=1
+gpgcheck=0
+
+# Pulp Nightly
+[pulp-nightly-koji]
+name=Pulp - Nightly (Koji)
+baseurl=http://koji.katello.org/releases/yum/pulp-nightly/pulp/$releasever/$basearch/
+enabled=1
+gpgcheck=0
+
+# PuppetLabs
+[puppetlabs-latest]
+name=PuppetLabs - Latest
+baseurl=http://yum.puppetlabs.com/el/$releasever/$basearch/
+enabled=1
+gpgcheck=0
+
+[puppetlabs-puppet-latest]
+name=Puppet - Latest
+baseurl=https://yum.puppetlabs.com/puppet/el/$releasever/$basearch/
+enabled=1
+gpgcheck=0
+
+# PuppetLabs Nightly
+[puppetlabs-puppet-nightly]
+name=Puppet - Nightly
+baseurl=https://yum.puppetlabs.com/puppet-nightly/el/$releasever/$basearch/
+enabled=1
+gpgcheck=0
+
+[puppetlabs-puppet5-nightly]
+name=Puppet5 - Nightly
+baseurl=https://yum.puppetlabs.com/puppet5-nightly/el/$releasever/$basearch/
+enabled=1
+gpgcheck=0
+
+# NGINX
+[nginx-latest]
+name=NGINX - Latest
+baseurl=https://nginx.org/packages/centos/$releasever/$basearch/
+enabled=1
+gpgcheck=0
+
+[nginx-latest-noarch]
+name=NGINX - Latest (noarch)
+baseurl=https://nginx.org/packages/centos/$releasever/noarch/
+enabled=1
+gpgcheck=0
