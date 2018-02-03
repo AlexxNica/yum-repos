@@ -5,9 +5,21 @@ baseurl=https://yum.theforeman.org/latest/el$releasever/$basearch/
 enabled=1
 gpgcheck=0
 
+[foreman-1.16]
+name=Foreman - 1.16
+baseurl=http://yum.theforeman.org/releases/1.16/el7/$basearch
+enabled=1
+gpgcheck=0
+
 [foreman-plugins-latest]
 name=Foreman Plugins - Latest
 baseurl=https://yum.theforeman.org/plugins/latest/el$releasever/$basearch/
+enabled=1
+gpgcheck=0
+
+[foreman-plugins-1.16]
+name=Foreman Plugins - 1.16
+baseurl=http://yum.theforeman.org/plugins/1.16/el7/$basearch
 enabled=1
 gpgcheck=0
 
@@ -37,9 +49,22 @@ baseurl=https://fedorapeople.org/groups/katello/releases/yum/latest/katello/el$r
 enabled=1
 gpgcheck=0
 
+[katello-3.5]
+name=Katello - 3.5
+baseurl=https://fedorapeople.org/groups/katello/releases/yum/3.5/katello/el7/$basearch/
+enabled=1
+gpgcheck=0
+
+# Katello Client
 [katello-client-latest]
 name=Katello Client - Latest
 baseurl=https://fedorapeople.org/groups/katello/releases/yum/latest/client/el$releasever/$basearch/
+enabled=1
+gpgcheck=0
+
+[katello-client-3.5]
+name=Katello Client - 3.5
+baseurl=https://fedorapeople.org/groups/katello/releases/yum/3.5/client/el7/$basearch/
 enabled=1
 gpgcheck=0
 
@@ -49,9 +74,21 @@ baseurl=https://fedorapeople.org/groups/katello/releases/yum/latest/candlepin/el
 enabled=1
 gpgcheck=0
 
+[katello-candlepin-3.5]
+name=Katello Candlepin - 3.5
+baseurl=https://fedorapeople.org/groups/katello/releases/yum/3.5/candlepin/el7/$basearch/
+enabled=1
+gpgcheck=0
+
 [katello-pulp-latest]
 name=Katello Pulp - Latest
 baseurl=https://fedorapeople.org/groups/katello/releases/yum/latest/pulp/el$releasever/$basearch/
+enabled=1
+gpgcheck=0
+
+[katello-pulp-3.5]
+name=Katello Pulp - 3.5
+baseurl=https://fedorapeople.org/groups/katello/releases/yum/3.5/pulp/el7/$basearch/
 enabled=1
 gpgcheck=0
 
@@ -110,6 +147,13 @@ gpgcheck=0
 [puppetlabs-puppet5-nightly]
 name=Puppet5 - Nightly
 baseurl=https://yum.puppetlabs.com/puppet5-nightly/el/$releasever/$basearch/
+enabled=1
+gpgcheck=0
+
+# Puppet EL6
+[puppetlabs-puppet-el6]
+name=Puppet - EL6
+baseurl=http://yum.puppetlabs.com/puppet/el/6/$basearch
 enabled=1
 gpgcheck=0
 
