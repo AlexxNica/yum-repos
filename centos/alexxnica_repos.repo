@@ -7,7 +7,7 @@ gpgcheck=0
 
 [foreman-1.16]
 name=Foreman - 1.16
-baseurl=http://yum.theforeman.org/releases/1.16/el7/$basearch
+baseurl=http://yum.theforeman.org/releases/1.16/el$releasever/$basearch
 enabled=1
 gpgcheck=0
 
@@ -19,7 +19,7 @@ gpgcheck=0
 
 [foreman-plugins-1.16]
 name=Foreman Plugins - 1.16
-baseurl=http://yum.theforeman.org/plugins/1.16/el7/$basearch
+baseurl=http://yum.theforeman.org/plugins/1.16/el$releasever/$basearch
 enabled=1
 gpgcheck=0
 
@@ -51,7 +51,7 @@ gpgcheck=0
 
 [katello-3.5]
 name=Katello - 3.5
-baseurl=https://fedorapeople.org/groups/katello/releases/yum/3.5/katello/el7/$basearch/
+baseurl=https://fedorapeople.org/groups/katello/releases/yum/3.5/katello/el$releasever/$basearch/
 enabled=1
 gpgcheck=0
 
@@ -64,7 +64,7 @@ gpgcheck=0
 
 [katello-client-3.5]
 name=Katello Client - 3.5
-baseurl=https://fedorapeople.org/groups/katello/releases/yum/3.5/client/el7/$basearch/
+baseurl=https://fedorapeople.org/groups/katello/releases/yum/3.5/client/el$releasever/$basearch/
 enabled=1
 gpgcheck=0
 
@@ -76,7 +76,7 @@ gpgcheck=0
 
 [katello-candlepin-3.5]
 name=Katello Candlepin - 3.5
-baseurl=https://fedorapeople.org/groups/katello/releases/yum/3.5/candlepin/el7/$basearch/
+baseurl=https://fedorapeople.org/groups/katello/releases/yum/3.5/candlepin/el$releasever/$basearch/
 enabled=1
 gpgcheck=0
 
@@ -88,7 +88,7 @@ gpgcheck=0
 
 [katello-pulp-3.5]
 name=Katello Pulp - 3.5
-baseurl=https://fedorapeople.org/groups/katello/releases/yum/3.5/pulp/el7/$basearch/
+baseurl=https://fedorapeople.org/groups/katello/releases/yum/3.5/pulp/el$releasever/$basearch/
 enabled=1
 gpgcheck=0
 
